@@ -40,10 +40,10 @@ rollBtn.addEventListener("click", function(){
     }
 
 
-    if(player1Score >= 20){
+    if(player1Score >= 35){
         message.textContent = "you won!"
         showDisplayButton()
-    }else if(player2Score >= 20){
+    }else if(player2Score >= 35){
         message.textContent = "computer won !"
         showDisplayButton()
     }
